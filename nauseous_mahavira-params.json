@@ -1,0 +1,182 @@
+{
+    "artic_minion_aligner": "minimap2",
+    "kraken2_assembly_host_filter": true,
+    "skip_mosdepth": false,
+    "skip_bandage": false,
+    "custom_config_base": "https://raw.githubusercontent.com/nf-core/configs/master",
+    "bowtie2_index": "",
+    "kraken2_db_name": "human",
+    "kraken2_variants_host_filter": false,
+    "skip_assembly": false,
+    "plaintext_email": false,
+    "save_reference": false,
+    "skip_markduplicates": true,
+    "monochrome_logs": false,
+    "min_barcode_reads": 100,
+    "skip_consensus_plots": false,
+    "max_cpus": 2,
+    "primer_left_suffix": "_LEFT",
+    "skip_multiqc": false,
+    "protocol": "amplicon",
+    "primer_right_suffix": "_RIGHT",
+    "skip_nextclade": false,
+    "spades_mode": "rnaviral",
+    "skip_asciigenome": false,
+    "max_multiqc_email_size": "25.MB",
+    "nextclade_dataset_reference": "MN908947",
+    "max_time": "6.h",
+    "skip_plasmidid": true,
+    "skip_fastqc": false,
+    "validate_params": true,
+    "skip_nanoplot": false,
+    "nextclade_dataset_name": "sars-cov-2",
+    "skip_pangolin": false,
+    "artic_minion_caller": "nanopolish",
+    "skip_assembly_quast": false,
+    "skip_pycoqc": false,
+    "version": false,
+    "skip_consensus": false,
+    "publish_dir_mode": "copy",
+    "input": "https://api.tower.nf/workspaces/40230138858677/datasets/4bXjNgLJdYsBPkwNWYXvN0/v/1/n/samplesheet_test_illumina_amplicon.csv",
+    "primer_set_version": 1,
+    "assemblers": "spades,unicycler,minia",
+    "config_profile_name": "Test profile",
+    "min_guppyplex_reads": 10,
+    "skip_kraken2": false,
+    "consensus_caller": "bcftools",
+    "skip_abacas": false,
+    "skip_variants": false,
+    "primer_set": "artic",
+    "skip_ivar_trim": false,
+    "skip_fastp": false,
+    "asciigenome_window_size": 50,
+    "save_unaligned": false,
+    "save_mpileup": false,
+    "filter_duplicates": false,
+    "skip_picard_metrics": false,
+    "platform": "illumina",
+    "custom_config_version": "master",
+    "max_memory": "6.GB",
+    "fasta": "https://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V1/nCoV-2019.reference.fasta",
+    "nextclade_dataset": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/nextclade_sars-cov-2_MN908947_2022-06-14T12_00_00Z.tar.gz",
+    "skip_cutadapt": false,
+    "skip_blast": false,
+    "kraken2_db": "https://raw.githubusercontent.com/nf-core/test-datasets/viralrecon/genome/kraken2/kraken2_hs22.tar.gz",
+    "schema_ignore_params": "genomes",
+    "skip_variants_quast": false,
+    "primer_bed": "https://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V1/nCoV-2019.primer.bed",
+    "skip_variants_long_table": false,
+    "save_trimmed_fail": false,
+    "config_profile_description": "Minimal test dataset to check pipeline function",
+    "genomes": {
+        "NC_045512.2": {
+            "fasta": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/NC_045512.2/GCF_009858895.2_ASM985889v3_genomic.200409.fna.gz",
+            "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/NC_045512.2/GCF_009858895.2_ASM985889v3_genomic.200409.gff.gz",
+            "nextclade_dataset": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/nextclade_sars-cov-2_MN908947_2022-06-14T12_00_00Z.tar.gz",
+            "nextclade_dataset_name": "sars-cov-2",
+            "nextclade_dataset_reference": "MN908947",
+            "nextclade_dataset_tag": "2022-06-14T12:00:00Z"
+        },
+        "MN908947.3": {
+            "fasta": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/GCA_009858895.3_ASM985889v3_genomic.200409.fna.gz",
+            "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/GCA_009858895.3_ASM985889v3_genomic.200409.gff.gz",
+            "nextclade_dataset": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/nextclade_sars-cov-2_MN908947_2022-06-14T12_00_00Z.tar.gz",
+            "nextclade_dataset_name": "sars-cov-2",
+            "nextclade_dataset_reference": "MN908947",
+            "nextclade_dataset_tag": "2022-06-14T12:00:00Z",
+            "primer_sets": {
+                "artic": {
+                    "1": {
+                        "fasta": "https://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V1/nCoV-2019.reference.fasta",
+                        "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/GCA_009858895.3_ASM985889v3_genomic.200409.gff.gz",
+                        "primer_bed": "https://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V1/nCoV-2019.primer.bed",
+                        "scheme": "nCoV-2019"
+                    },
+                    "2": {
+                        "fasta": "https://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V2/nCoV-2019.reference.fasta",
+                        "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/GCA_009858895.3_ASM985889v3_genomic.200409.gff.gz",
+                        "primer_bed": "https://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V2/nCoV-2019.primer.bed",
+                        "scheme": "nCoV-2019"
+                    },
+                    "3": {
+                        "fasta": "https://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V3/nCoV-2019.reference.fasta",
+                        "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/GCA_009858895.3_ASM985889v3_genomic.200409.gff.gz",
+                        "primer_bed": "https://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V3/nCoV-2019.primer.bed",
+                        "scheme": "nCoV-2019"
+                    },
+                    "4": {
+                        "fasta": "https://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V4/SARS-CoV-2.reference.fasta",
+                        "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/GCA_009858895.3_ASM985889v3_genomic.200409.gff.gz",
+                        "primer_bed": "https://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V4/SARS-CoV-2.scheme.bed",
+                        "scheme": "SARS-CoV-2"
+                    },
+                    "1200": {
+                        "fasta": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/primer_schemes/artic/nCoV-2019/V1200/nCoV-2019.reference.fasta",
+                        "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/GCA_009858895.3_ASM985889v3_genomic.200409.gff.gz",
+                        "primer_bed": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/primer_schemes/artic/nCoV-2019/V1200/nCoV-2019.bed",
+                        "scheme": "nCoV-2019"
+                    },
+                    "4.1": {
+                        "fasta": "https://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V4.1/SARS-CoV-2.reference.fasta",
+                        "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/GCA_009858895.3_ASM985889v3_genomic.200409.gff.gz",
+                        "primer_bed": "https://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V4.1/SARS-CoV-2.scheme.bed",
+                        "scheme": "SARS-CoV-2"
+                    },
+                    "5.3.2": {
+                        "fasta": "https://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V5.3.2/SARS-CoV-2.reference.fasta",
+                        "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/GCA_009858895.3_ASM985889v3_genomic.200409.gff.gz",
+                        "primer_bed": "https://github.com/artic-network/artic-ncov2019/raw/master/primer_schemes/nCoV-2019/V5.3.2/SARS-CoV-2.scheme.bed",
+                        "scheme": "SARS-CoV-2"
+                    }
+                },
+                "NEB": {
+                    "vss1": {
+                        "fasta": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/primer_schemes/artic/nCoV-2019/V1200/nCoV-2019.reference.fasta",
+                        "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/GCA_009858895.3_ASM985889v3_genomic.200409.gff.gz",
+                        "primer_bed": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/primer_schemes/NEB/nCov-2019/vss1/neb_vss1.primer.bed",
+                        "scheme": "nCoV-2019"
+                    },
+                    "vsl1": {
+                        "fasta": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/primer_schemes/artic/nCoV-2019/V1200/nCoV-2019.reference.fasta",
+                        "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/GCA_009858895.3_ASM985889v3_genomic.200409.gff.gz",
+                        "primer_bed": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/primer_schemes/NEB/nCov-2019/vsl1/neb_vsl1.primer.bed",
+                        "scheme": "nCoV-2019"
+                    }
+                },
+                "atoplex": {
+                    "fasta": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/primer_schemes/artic/nCoV-2019/V1200/nCoV-2019.reference.fasta",
+                    "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/NC_045512.2/GCF_009858895.2_ASM985889v3_genomic.200409.gff.gz",
+                    "primer_bed": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/NC_045512.2/amplicon/nCoV-2019.atoplex.V1.bed",
+                    "scheme": "nCoV-2019"
+                }
+            }
+        },
+        "NC_063383.1": {
+            "fasta": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/NC_063383.1/GCF_014621545.1_ASM1462154v1_genomic.220824.fna.gz",
+            "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/NC_063383.1/GCF_014621545.1_ASM1462154v1_genomic.220824.gff.gz",
+            "nextclade_dataset": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/NC_063383.1/nextclade_hMPXV_NC_063383.1_2022-08-19T12_00_00Z.tar.gz",
+            "nextclade_dataset_name": "hMPXV",
+            "nextclade_dataset_reference": "NC_063383.1",
+            "nextclade_dataset_tag": "2022-08-19T12:00:00Z"
+        },
+        "ON563414.3": {
+            "fasta": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/ON563414.3/GCA_023516015.3_ASM2351601v1_genomic.220824.fna.gz",
+            "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/ON563414.3/GCA_023516015.3_ASM2351601v1_genomic.220824.gff.gz"
+        },
+        "MT903344.1": {
+            "fasta": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MT903344.1/GCA_014621585.1_ASM1462158v1_genomic.220824.fna.gz",
+            "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MT903344.1/GCA_014621585.1_ASM1462158v1_genomic.220824.gff.gz"
+        }
+    },
+    "skip_snpeff": false,
+    "min_mapped_reads": 1000,
+    "gff": "https://github.com/nf-core/test-datasets/raw/viralrecon/genome/MN908947.3/GCA_009858895.3_ASM985889v3_genomic.200409.gff.gz",
+    "nextclade_dataset_tag": "2022-06-14T12:00:00Z",
+    "outdir": "./results",
+    "genome": "MN908947.3",
+    "help": false,
+    "variant_caller": "ivar",
+    "asciigenome_read_depth": 50,
+    "show_hidden_params": false,
+    "ivar_trim_noprimer": false
+}
