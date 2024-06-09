@@ -1,0 +1,330 @@
+{"level":"info","version":"2.2.14-08494dd","min_free_space":2147483648,"total_uploaders":10,"total_downloaders":32,"read_ahead":64,"chunk_write_size":251658240,"cache_soft_limit_percentage":0.2,"cache_hard_limit_percentage":0.1,"cache_max_size":18446744073709551615,"time":1717832109435919431,"caller":"fusionfs.go:62","message":"configuration"}
+{"level":"info","folder":"/tmp/chunks2127841326","time":1717832109437062211,"caller":"data_service.go:63","message":"newDataService"}
+{"level":"debug","cacheSize":117942382592,"cacheHardLimit":11794238259,"cacheSoftLimit":23588476518,"time":1717832109437100730,"caller":"data_service.go:98","message":"cache limits"}
+{"level":"debug","worker":1,"time":1717832109437120738,"caller":"data_service_sync.go:33","message":"upload worker start"}
+{"level":"debug","worker":6,"time":1717832109437134664,"caller":"data_service_sync.go:33","message":"upload worker start"}
+{"level":"debug","worker":2,"time":1717832109437157653,"caller":"data_service_sync.go:33","message":"upload worker start"}
+{"level":"debug","worker":3,"time":1717832109437163221,"caller":"data_service_sync.go:33","message":"upload worker start"}
+{"level":"debug","worker":4,"time":1717832109437168886,"caller":"data_service_sync.go:33","message":"upload worker start"}
+{"level":"debug","time":1717832109437168784,"caller":"entry_service.go:32","message":"NewEntryService"}
+{"level":"debug","worker":5,"time":1717832109437173869,"caller":"data_service_sync.go:33","message":"upload worker start"}
+{"level":"debug","path":"/","children":0,"time":1717832109437186871,"caller":"entry_service.go:345","message":"PopulateDirectory"}
+{"level":"debug","worker":14,"time":1717832109437186220,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":7,"time":1717832109437195718,"caller":"data_service_sync.go:33","message":"upload worker start"}
+{"level":"debug","path":"/","children":0,"time":1717832109437199320,"caller":"entry_service.go:391","message":"PopulateDirectory finished"}
+{"level":"debug","worker":8,"time":1717832109437203566,"caller":"data_service_sync.go:33","message":"upload worker start"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d","time":1717832109437209247,"caller":"entry_service.go:127","message":"ListDirectoryEntries"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d","children":0,"time":1717832109437216340,"caller":"entry_service.go:345","message":"PopulateDirectory"}
+{"level":"debug","worker":9,"time":1717832109437212300,"caller":"data_service_sync.go:33","message":"upload worker start"}
+{"level":"debug","key":"scratch/UdJoAXfzhpIgh/1d/","bucket":"nf-tower-bucket","truncate":false,"time":1717832109437225464,"caller":"single_region_store_list.go:25","message":"list directory entries"}
+{"level":"debug","worker":10,"time":1717832109437241040,"caller":"data_service_sync.go:33","message":"upload worker start"}
+{"level":"debug","worker":1,"time":1717832109437249667,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":2,"time":1717832109437256666,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":3,"time":1717832109437263907,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":4,"time":1717832109437283226,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":5,"time":1717832109437289700,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":6,"time":1717832109437295847,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":7,"time":1717832109437302668,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":8,"time":1717832109437309550,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":9,"time":1717832109437316116,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":10,"time":1717832109437323272,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":11,"time":1717832109437476661,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":12,"time":1717832109437498896,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":13,"time":1717832109437506981,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":23,"time":1717832109437515961,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":15,"time":1717832109437524074,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":16,"time":1717832109437531154,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":17,"time":1717832109437548313,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":18,"time":1717832109437560587,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":19,"time":1717832109437568571,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":20,"time":1717832109437575885,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":21,"time":1717832109437583083,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":22,"time":1717832109437589981,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":28,"time":1717832109437598137,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":24,"time":1717832109437606077,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":25,"time":1717832109437613811,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":26,"time":1717832109437620838,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":27,"time":1717832109437628229,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":31,"time":1717832109437647551,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":30,"time":1717832109437654546,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":29,"time":1717832109437621823,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","worker":32,"time":1717832109437662136,"caller":"data_service_sync.go:72","message":"download worker start"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d","children":0,"time":1717832109450133729,"caller":"entry_service.go:391","message":"PopulateDirectory finished"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d","time":1717832109450146173,"caller":"entry_service.go:141","message":"ListDirectoryEntries done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2","time":1717832109450151043,"caller":"entry_service.go:127","message":"ListDirectoryEntries"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2","children":0,"time":1717832109450159913,"caller":"entry_service.go:345","message":"PopulateDirectory"}
+{"level":"debug","key":"scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/","bucket":"nf-tower-bucket","truncate":false,"time":1717832109450170159,"caller":"single_region_store_list.go:25","message":"list directory entries"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2","children":0,"time":1717832109464449531,"caller":"entry_service.go:391","message":"PopulateDirectory finished"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2","time":1717832109464465089,"caller":"entry_service.go:141","message":"ListDirectoryEntries done"}
+{"level":"info","time":1717832109470205682,"caller":"mount.go:207","message":"FusionFS mounted at /fusion"}
+{"level":"info","ami-id":"ami-0c8de4e310bbcf7cf","instance-id":"i-06fdc04d809e4659b","instance-type":"r6id.large","time":1717832109483075450,"caller":"multi_region_store.go:362","message":"instance metadata"}
+{"level":"debug","time":1717832109483095572,"caller":"mount.go:131","message":"FUSE server ready"}
+{"level":"debug","path":"/s3/nf-tower-bucket","children":0,"time":1717832109583753876,"caller":"entry_service.go:345","message":"PopulateDirectory"}
+{"level":"debug","key":"/","bucket":"nf-tower-bucket","truncate":true,"time":1717832109583788637,"caller":"single_region_store_list.go:25","message":"list directory entries"}
+{"level":"debug","path":"/s3/nf-tower-bucket","children":0,"time":1717832109602287113,"caller":"entry_service.go:391","message":"PopulateDirectory finished"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh","children":0,"time":1717832109602663072,"caller":"entry_service.go:345","message":"PopulateDirectory"}
+{"level":"debug","key":"scratch/UdJoAXfzhpIgh/","bucket":"nf-tower-bucket","truncate":true,"time":1717832109602686256,"caller":"single_region_store_list.go:25","message":"list directory entries"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh","children":0,"time":1717832109616000600,"caller":"entry_service.go:391","message":"PopulateDirectory finished"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.log","time":1717832109616146422,"caller":"fusionfs_dir_lookup.go:38","message":"find entry not found"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.log","time":1717832109616198798,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.log","time":1717832109633094043,"caller":"entry_service.go:44","message":"insert entry"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.log","time":1717832109633120049,"caller":"entry_service.go:64","message":"insert entry done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.log","time":1717832109633177417,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.log","time":1717832109633186872,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.run","time":1717832109637992480,"caller":"data_service.go:328","message":"reading"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.run","time":1717832109638009880,"caller":"data_service.go:339","message":"reading done"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.run?bytes=0-10911","time":1717832109638099045,"caller":"chunk_manager.go:63","message":"new chunk manager"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.run?bytes=0-10911","time":1717832109638182861,"caller":"chunk_manager.go:158","message":"download chunk"}
+{"level":"debug","worker":14,"key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.run?bytes=0-10911","time":1717832109638188858,"caller":"data_service_sync.go:79","message":"download start"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.run?bytes=0-10911","size":10912,"duration":20.088614,"time":1717832109658273681,"caller":"chunk_manager.go:170","message":"downloaded"}
+{"level":"debug","next_chunk":0,"time":1717832109658294710,"caller":"chunk_manager.go:419","message":"download next chunks"}
+{"level":"debug","next_chunk":0,"time":1717832109658303887,"caller":"chunk_manager.go:426","message":"download next chunks done"}
+{"level":"debug","worker":14,"key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.run?bytes=0-10911","size":10912,"duration":20.123888,"time":1717832109658321118,"caller":"data_service_sync.go:82","message":"download done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.begin","time":1717832109660441352,"caller":"fusionfs_dir_lookup.go:38","message":"find entry not found"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.begin","time":1717832109660495317,"caller":"fusionfs_dir_lookup.go:38","message":"find entry not found"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.begin","time":1717832109660527906,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.begin","time":1717832109710074637,"caller":"entry_service.go:44","message":"insert entry"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.begin","time":1717832109710098663,"caller":"entry_service.go:64","message":"insert entry done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.begin","time":1717832109710158101,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.begin","time":1717832109710164803,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.begin","time":1717832109710219885,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.begin","time":1717832109710227749,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta","time":1717832109711140690,"caller":"fusionfs_dir_lookup.go:38","message":"find entry not found"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta","time":1717832109711867561,"caller":"fusionfs_dir_lookup.go:38","message":"find entry not found"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta","time":1717832109711922570,"caller":"fusionfs_dir_lookup.go:38","message":"find entry not found"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta","time":1717832109711955222,"caller":"entry_service.go:44","message":"insert entry"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta","time":1717832109711960671,"caller":"entry_service.go:64","message":"insert entry done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35/nCoV-2019.reference.fasta","children":0,"time":1717832109711965823,"caller":"entry_service.go:345","message":"PopulateDirectory"}
+{"level":"debug","key":"scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35/nCoV-2019.reference.fasta/","bucket":"nf-tower-bucket","truncate":true,"time":1717832109711990685,"caller":"single_region_store_list.go:25","message":"list directory entries"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35/nCoV-2019.reference.fasta","children":0,"time":1717832109725062199,"caller":"entry_service.go:394","message":"PopulateDirectory finished"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35","children":0,"time":1717832109725092102,"caller":"entry_service.go:345","message":"PopulateDirectory"}
+{"level":"debug","key":"scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35/","bucket":"nf-tower-bucket","truncate":false,"time":1717832109725103527,"caller":"single_region_store_list.go:25","message":"list directory entries"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35","children":0,"time":1717832109743279312,"caller":"entry_service.go:391","message":"PopulateDirectory finished"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35/nCoV-2019.reference.fasta","time":1717832109743298415,"caller":"fusionfs_symlink.go:54","message":"prefetching"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35/nCoV-2019.reference.fasta?bytes=0-30413","time":1717832109743308370,"caller":"chunk_manager.go:63","message":"new chunk manager"}
+{"level":"debug","worker":1,"key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35/nCoV-2019.reference.fasta?bytes=0-30413","time":1717832109743373569,"caller":"data_service_sync.go:79","message":"download start"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35/nCoV-2019.reference.fasta?bytes=0-30413","time":1717832109743382580,"caller":"chunk_manager.go:158","message":"download chunk"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.err","time":1717832109744732407,"caller":"fusionfs_dir_lookup.go:38","message":"find entry not found"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.err","time":1717832109745032366,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.run","time":1717832109746570169,"caller":"data_service.go:328","message":"reading"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.run","time":1717832109746583988,"caller":"data_service.go:339","message":"reading done"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35/nCoV-2019.reference.fasta?bytes=0-30413","size":30414,"duration":22.611912,"time":1717832109765996887,"caller":"chunk_manager.go:170","message":"downloaded"}
+{"level":"debug","worker":1,"key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35/nCoV-2019.reference.fasta?bytes=0-30413","size":30414,"duration":22.626853,"time":1717832109766009080,"caller":"data_service_sync.go:82","message":"download done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.err","time":1717832109792010279,"caller":"entry_service.go:44","message":"insert entry"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.err","time":1717832109792029334,"caller":"entry_service.go:64","message":"insert entry done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.err","time":1717832109792085016,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.err","time":1717832109792095205,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.out","time":1717832109792159008,"caller":"fusionfs_dir_lookup.go:38","message":"find entry not found"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.out","time":1717832109792188145,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.out","time":1717832109809323363,"caller":"entry_service.go:44","message":"insert entry"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.out","time":1717832109809343304,"caller":"entry_service.go:64","message":"insert entry done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.out","time":1717832109809396637,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109809401039,"caller":"fusionfs_dir_lookup.go:38","message":"find entry not found"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.out","time":1717832109809406948,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109809458566,"caller":"fusionfs_dir_lookup.go:38","message":"find entry not found"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109809486902,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109825484087,"caller":"entry_service.go:44","message":"insert entry"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109825500654,"caller":"entry_service.go:64","message":"insert entry done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109825542948,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109825553320,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109825671282,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109825678765,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.sh","time":1717832109836097330,"caller":"data_service.go:328","message":"reading"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.sh","time":1717832109836126645,"caller":"data_service.go:339","message":"reading done"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.sh?bytes=0-349","time":1717832109836199338,"caller":"chunk_manager.go:63","message":"new chunk manager"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.sh?bytes=0-349","time":1717832109836256443,"caller":"chunk_manager.go:158","message":"download chunk"}
+{"level":"debug","worker":2,"key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.sh?bytes=0-349","time":1717832109836321146,"caller":"data_service_sync.go:79","message":"download start"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.sh?bytes=0-349","size":350,"duration":19.754895,"time":1717832109856014957,"caller":"chunk_manager.go:170","message":"downloaded"}
+{"level":"debug","next_chunk":0,"time":1717832109856035839,"caller":"chunk_manager.go:419","message":"download next chunks"}
+{"level":"debug","next_chunk":0,"time":1717832109856041591,"caller":"chunk_manager.go:426","message":"download next chunks done"}
+{"level":"debug","worker":2,"key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.sh?bytes=0-349","size":350,"duration":19.87491,"time":1717832109856213125,"caller":"data_service_sync.go:82","message":"download done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9","children":0,"time":1717832109858298968,"caller":"entry_service.go:345","message":"PopulateDirectory"}
+{"level":"debug","key":"scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/","bucket":"nf-tower-bucket","truncate":true,"time":1717832109858328560,"caller":"single_region_store_list.go:25","message":"list directory entries"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9","children":0,"time":1717832109896185685,"caller":"entry_service.go:391","message":"PopulateDirectory finished"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35/nCoV-2019.reference.fasta","time":1717832109896332304,"caller":"data_service.go:328","message":"reading"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35/nCoV-2019.reference.fasta","time":1717832109896344912,"caller":"data_service.go:339","message":"reading done"}
+{"level":"debug","next_chunk":0,"time":1717832109896459485,"caller":"chunk_manager.go:419","message":"download next chunks"}
+{"level":"debug","next_chunk":0,"time":1717832109896468741,"caller":"chunk_manager.go:426","message":"download next chunks done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35/nCoV-2019.reference.fasta","time":1717832109896807745,"caller":"data_service.go:261","message":"release reading"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35/nCoV-2019.reference.fasta","time":1717832109896821909,"caller":"data_service.go:267","message":"release reading"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/stage-5a54042f-eb08-4454-ae49-4003628158f4/a9/475a386b44cdfe6cb9fb8bf94e0c35/nCoV-2019.reference.fasta","time":1717832109896838020,"caller":"data_service.go:284","message":"release reading done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832109896872752,"caller":"fusionfs_dir_lookup.go:38","message":"find entry not found"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832109896901865,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832109920399282,"caller":"entry_service.go:44","message":"insert entry"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832109920429653,"caller":"entry_service.go:64","message":"insert entry done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832109920481101,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832109920499778,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai?0","time":1717832109920575497,"caller":"chunk_manager.go:63","message":"new chunk manager"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832109920711491,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832109920719061,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes","time":1717832109921296809,"caller":"fusionfs_dir_lookup.go:38","message":"find entry not found"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes","time":1717832109921333795,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes","time":1717832109935731693,"caller":"entry_service.go:44","message":"insert entry"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes","time":1717832109935774091,"caller":"entry_service.go:64","message":"insert entry done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes","time":1717832109935819171,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes","time":1717832109935828577,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832109936484375,"caller":"data_service.go:328","message":"reading"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832109936497306,"caller":"data_service.go:339","message":"reading done"}
+{"level":"debug","next_chunk":-1,"time":1717832109936574967,"caller":"chunk_manager.go:419","message":"download next chunks"}
+{"level":"debug","next_chunk":-1,"time":1717832109936581252,"caller":"chunk_manager.go:426","message":"download next chunks done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832109936661655,"caller":"data_service.go:261","message":"release reading"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832109936668830,"caller":"data_service.go:267","message":"release reading"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832109936672511,"caller":"data_service.go:284","message":"release reading done"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes?0","time":1717832109936684908,"caller":"chunk_manager.go:63","message":"new chunk manager"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes","time":1717832109936848522,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes","time":1717832109936870924,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml","time":1717832109942851489,"caller":"fusionfs_dir_lookup.go:38","message":"find entry not found"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml","time":1717832109942900678,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml","time":1717832109960273664,"caller":"entry_service.go:44","message":"insert entry"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml","time":1717832109960295792,"caller":"entry_service.go:64","message":"insert entry done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml","time":1717832109960344257,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml","time":1717832109960351433,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml?0","time":1717832109960880917,"caller":"chunk_manager.go:63","message":"new chunk manager"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml","time":1717832109961043589,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml","time":1717832109961053353,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.sh","time":1717832109961227750,"caller":"data_service.go:261","message":"release reading"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.sh","time":1717832109961237379,"caller":"data_service.go:267","message":"release reading"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.sh","time":1717832109961243372,"caller":"data_service.go:284","message":"release reading done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967386831,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967408432,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace?0","time":1717832109967512096,"caller":"chunk_manager.go:63","message":"new chunk manager"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967615392,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967623007,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967642465,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967648959,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967730862,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967756216,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967763968,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967768738,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967851648,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967857684,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967865772,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967869428,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967956793,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967964906,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967972831,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109967976872,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968058882,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968064999,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968083548,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968088989,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968184568,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968191348,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968185019,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968258161,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968291750,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968300844,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968303770,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968309892,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968382088,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968387835,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968408189,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968413753,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968494005,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968500131,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968508458,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968511257,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968577823,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968583371,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968681288,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968689775,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968782715,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968789055,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968798895,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968804998,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968883595,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968892297,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968901135,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109968982673,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109969077177,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109969083566,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109969089806,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109969093582,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109969208780,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109969214582,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109969221781,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109969225823,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109969715528,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109969726091,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109969733859,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109969738560,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109970198043,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109970207165,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109970215210,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109970219864,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109970424368,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832109970438405,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.run","time":1717832109970700301,"caller":"data_service.go:261","message":"release reading"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.run","time":1717832109970711718,"caller":"data_service.go:284","message":"release reading done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.out","time":1717832109972120696,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.out","time":1717832109972134968,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.err","time":1717832109973015419,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.err","time":1717832109973028517,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode","time":1717832109973271260,"caller":"fusionfs_dir_lookup.go:38","message":"find entry not found"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode","time":1717832109973306438,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode","time":1717832109989517624,"caller":"entry_service.go:44","message":"insert entry"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode","time":1717832109989538516,"caller":"entry_service.go:64","message":"insert entry done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode","time":1717832109989591570,"caller":"data_service.go:313","message":"writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode","time":1717832109989598814,"caller":"data_service.go:324","message":"writing done"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode?0","time":1717832109989690253,"caller":"chunk_manager.go:63","message":"new chunk manager"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode","time":1717832109989783336,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode","time":1717832109989790674,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.run","time":1717832109989955037,"caller":"data_service.go:261","message":"release reading"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.run","time":1717832109989962703,"caller":"data_service.go:267","message":"release reading"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.run","time":1717832109989967891,"caller":"data_service.go:284","message":"release reading done"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.log","time":1717832109990054314,"caller":"data_service.go:232","message":"release writing"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.log","time":1717832109990078537,"caller":"data_service.go:253","message":"release writing done"}
+{"level":"debug","time":1717832110090526003,"caller":"mount.go:103","message":"FUSE server shutdown"}
+{"level":"info","time":1717832110090568959,"caller":"fusionfs.go:134","message":"Filesystem shutdown started"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta","time":1717832110090587111,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.fusion.symlinks","time":1717832110107300589,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","time":1717832110125137043,"caller":"data_service.go:344","message":"shutdown chunk service start"}
+{"level":"debug","worker":6,"key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode?0","time":1717832110125177786,"caller":"data_service_sync.go:64","message":"background uploading"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode?0","time":1717832110125193253,"caller":"chunk_manager.go:180","message":"upload chunk"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode?0","time":1717832110125204709,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","worker":5,"time":1717832110125231592,"caller":"data_service_sync.go:41","message":"upload worker done"}
+{"level":"debug","worker":7,"time":1717832110125239756,"caller":"data_service_sync.go:41","message":"upload worker done"}
+{"level":"debug","worker":8,"time":1717832110125246988,"caller":"data_service_sync.go:41","message":"upload worker done"}
+{"level":"debug","worker":9,"time":1717832110125253668,"caller":"data_service_sync.go:41","message":"upload worker done"}
+{"level":"debug","worker":10,"time":1717832110125259767,"caller":"data_service_sync.go:41","message":"upload worker done"}
+{"level":"debug","worker":2,"key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai?0","time":1717832110125266353,"caller":"data_service_sync.go:64","message":"background uploading"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai?0","time":1717832110125271396,"caller":"chunk_manager.go:180","message":"upload chunk"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai?0","time":1717832110125276759,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","worker":1,"key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace?0","time":1717832110125476080,"caller":"data_service_sync.go:64","message":"background uploading"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace?0","time":1717832110125484399,"caller":"chunk_manager.go:180","message":"upload chunk"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace?0","time":1717832110125490582,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","worker":3,"key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes?0","time":1717832110125563968,"caller":"data_service_sync.go:64","message":"background uploading"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes?0","time":1717832110125571464,"caller":"chunk_manager.go:180","message":"upload chunk"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes?0","time":1717832110125577441,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","worker":4,"key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml?0","time":1717832110125706989,"caller":"data_service_sync.go:64","message":"background uploading"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml?0","time":1717832110125714859,"caller":"chunk_manager.go:180","message":"upload chunk"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml?0","time":1717832110125721374,"caller":"single_region_store_write.go:16","message":"write chunk"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode?0","size":1,"duration":19.278135,"time":1717832110144480266,"caller":"chunk_manager.go:199","message":"uploaded"}
+{"level":"debug","worker":6,"time":1717832110144500185,"caller":"data_service_sync.go:41","message":"upload worker done"}
+{"level":"debug","from":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode?0","to":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode","time":1717832110144510152,"caller":"data_service.go:409","message":"move manager"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai?0","size":26,"duration":22.018423,"time":1717832110147294318,"caller":"chunk_manager.go:199","message":"uploaded"}
+{"level":"debug","worker":2,"time":1717832110147304953,"caller":"data_service_sync.go:41","message":"upload worker done"}
+{"level":"debug","from":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai?0","to":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832110147304608,"caller":"data_service.go:409","message":"move manager"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes?0","size":17,"duration":24.498372,"time":1717832110150074889,"caller":"chunk_manager.go:199","message":"uploaded"}
+{"level":"debug","worker":3,"time":1717832110150083877,"caller":"data_service_sync.go:41","message":"upload worker done"}
+{"level":"debug","from":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes?0","to":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes","time":1717832110150089618,"caller":"data_service.go:409","message":"move manager"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml?0","size":93,"duration":27.729734,"time":1717832110153449784,"caller":"chunk_manager.go:199","message":"uploaded"}
+{"level":"debug","worker":4,"time":1717832110153457210,"caller":"data_service_sync.go:41","message":"upload worker done"}
+{"level":"debug","from":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml?0","to":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml","time":1717832110153462294,"caller":"data_service.go:409","message":"move manager"}
+{"level":"debug","key":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace?0","size":248,"duration":28.662741,"time":1717832110154151793,"caller":"chunk_manager.go:199","message":"uploaded"}
+{"level":"debug","worker":1,"time":1717832110154159103,"caller":"data_service_sync.go:41","message":"upload worker done"}
+{"level":"info","time":1717832110154164547,"caller":"data_service.go:403","message":"shutdown chunk service done"}
+{"level":"debug","time":1717832110154169744,"caller":"data_service.go:404","message":"shutdown chunk service done"}
+{"level":"debug","from":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace?0","to":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832110154191253,"caller":"data_service.go:409","message":"move manager"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode","time":1717832110154207696,"caller":"single_region_store_complete.go:19","message":"compact entry"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.exitcode","time":1717832110154214637,"caller":"single_region_store_complete.go:28","message":"cannot compact a single chunk entry that does not have the chunk extension"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832110254444511,"caller":"single_region_store_complete.go:19","message":"compact entry"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/.command.trace","time":1717832110254462745,"caller":"single_region_store_complete.go:28","message":"cannot compact a single chunk entry that does not have the chunk extension"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes","time":1717832110354675405,"caller":"single_region_store_complete.go:19","message":"compact entry"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.sizes","time":1717832110354688239,"caller":"single_region_store_complete.go:28","message":"cannot compact a single chunk entry that does not have the chunk extension"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832110454909185,"caller":"single_region_store_complete.go:19","message":"compact entry"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/nCoV-2019.reference.fasta.fai","time":1717832110454924170,"caller":"single_region_store_complete.go:28","message":"cannot compact a single chunk entry that does not have the chunk extension"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml","time":1717832110555083660,"caller":"single_region_store_complete.go:19","message":"compact entry"}
+{"level":"debug","path":"/s3/nf-tower-bucket/scratch/UdJoAXfzhpIgh/1d/16f251530d29a0174c69da27ca96a2/versions.yml","time":1717832110555096021,"caller":"single_region_store_complete.go:28","message":"cannot compact a single chunk entry that does not have the chunk extension"}
+{"level":"debug","time":1717832110655297402,"caller":"fusionfs.go:161","message":"Remove temporal chunks"}
+{"level":"debug","time":1717832110655405915,"caller":"fusionfs.go:167","message":"Upload logs file"}
